@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const DonationThings = () => {
+const HouseholdItems = () => {
     const [showContact, setShowContact] = useState(false);
     const [contactInfo, setContactInfo] = useState("");
 
@@ -14,66 +14,66 @@ const DonationThings = () => {
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                        src="https://s.alicdn.com/@sc04/kf/Hd6dfaf8456614fdd9de81bbc2871a295R.jpg_300x300.jpg"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
                         onClick={() => handleImageClick("Carmensheriff@gmail.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                        src="https://maximizeminimalism.com/wp-content/uploads/2019/09/Jars-From-Grocery-Items-Can-Be-Used-For-Storage.png"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
                         onClick={() => handleImageClick("Naomijones09@icloud.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                        src="https://cdn.store-assets.com/s/323023/f/4595336.jpeg"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
                         onClick={() => handleImageClick("Andymarwood478@hotmail.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                        src="https://i.ebayimg.com/00/s/NzY1WDEwMjQ=/z/OJEAAOSwJTNb5HiA/$_86.JPG"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
                         onClick={() => handleImageClick("Lindawallace@gmail.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                        src="https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/E9YAAOSwIB9fV2RU/$_86.JPG"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
                         onClick={() => handleImageClick("Catherineallan21@icloud.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                        src="https://www.besthealthmag.ca/wp-content/uploads/2020/05/GettyImages-1045500086-e1587040242117.jpg"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
-                        onClick={() => handleImageClick("Catherineallan21@icloud.com")}
+                        onClick={() => handleImageClick("Katthyallan21@icloud.com")}
                     />
 
                     <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                        src="https://2.bp.blogspot.com/-QBj1AQB_wcs/TZQmoMEENeI/AAAAAAAAAGQ/xOlAXieh2dQ/s1600/more+household+items+011.JPG"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
-                        onClick={() => handleImageClick("Catherineallan21@icloud.com")}
+                        onClick={() => handleImageClick("irrinana21@icloud.com")}
                     />
 
                    <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                        src="http://img06.deviantart.net/e82d/i/2016/246/b/4/common_household_items_by_drummyfish-dagbncm.png"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
-                        onClick={() => handleImageClick("Catherineallan21@icloud.com")}
+                        onClick={() => handleImageClick("Paulstefon0104@icloud.com")}
                     />
 
-                    <img
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                <img
+                        src="https://dygtyjqp7pi0m.cloudfront.net/i/31235/27092494_1.jpg?v=8D49D66F5FCE820"
                         className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt=""
-                        onClick={() => handleImageClick("Catherineallan21@icloud.com")}
+                        onClick={() => handleImageClick("oliviaminard01@icloud.com")}
                     />
                 </div>
             </div>
@@ -136,4 +136,4 @@ const DonationThings = () => {
     );
 };
 
-export default DonationThings;
+export default HouseholdItems;
