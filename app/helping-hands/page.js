@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { AuthContextProvider, useUserAuth } from "./_utils/auth-context";
+import {useUserAuth } from "./_utils/auth-context";
 
 export default function Page() {
   const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
@@ -46,20 +46,27 @@ export default function Page() {
           shape a brighter future for all. Donate with purpose, embrace
           kindness, and be a catalyst for positive change.
         </p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          <Link
+        {user ? (
+          <Link onClick={handleSignOut}
+            href="/"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+          >
+            Sign Out
+          </Link>
+        ) : (
+          <Link onClick={handleSignIn}
             href="/helping-hands/dashboard"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
           >
-            Sign Up
+            Sign In
           </Link>
+        )}
           <Link
             href="/helping-hands/learn-more"
             class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
           >
             Learn more
           </Link>
-        </div>
       </div>
     </section>
   );
