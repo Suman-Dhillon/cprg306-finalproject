@@ -1,7 +1,7 @@
-import Profile from ".profile-form";
+import ProfileComponent from './profile';
 
 export default function Profile() {
     return (
-        <Profile />
+        <ProfileComponent />
     );
 }
