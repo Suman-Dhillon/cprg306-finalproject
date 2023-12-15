@@ -1,5 +1,5 @@
 "use client"
-
+import React from "react";
 export default function Profile() {
     return (
         <form class="w-full max-w-lg">
