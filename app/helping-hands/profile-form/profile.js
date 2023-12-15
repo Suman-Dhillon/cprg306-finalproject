@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 export default function ProfileComponent() {
     return (
         <>
@@ -15,7 +17,7 @@ export default function ProfileComponent() {
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                             Last Name
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe" required></input>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"></input>
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -23,7 +25,7 @@ export default function ProfileComponent() {
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
                             Password
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************" required></input>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************" ></input>
                         <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
                     </div>
                 </div>
@@ -32,7 +34,7 @@ export default function ProfileComponent() {
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
                             Email
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" placeholder="janedoe@gmail.com" required></input>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" placeholder="janedoe@gmail.com" ></input>
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -40,7 +42,7 @@ export default function ProfileComponent() {
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-phone-number">
                             Phone Number
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-phone-number" placeholder="123-456-7890" required></input>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-phone-number" placeholder="123-456-7890" ></input>
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-2">
@@ -80,9 +82,9 @@ export default function ProfileComponent() {
                     </div>
                 </div>
                 <div class="flex justify-center mt-10">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    <Link href="/helping-hands/dashboard" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                         Submit
-                    </button>
+                    </Link>
                 </div>
             </form>
         </>

@@ -42,7 +42,7 @@ export default function LearnMoreComponent() {
                 </div>
                 </footer>
 
-                <Link href="/helping-hands" className="text-blue-500 hover:underline">Back</Link>
+                <Link href="/helping-hands/dashboard" className="text-blue-500 hover:underline">Back</Link>
             </div>
         </>
     );
