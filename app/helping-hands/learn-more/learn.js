@@ -1,9 +1,9 @@
-"use client"
 import React from "react";
+import Link from "next/link";
 
-export default function LearnMore() {
+export default function LearnMoreComponent() {
     return (
-        <Layout>
+        <>
             <div className="container mx-auto my-8">
                 <h1 className="text-3xl font-bold mb-4">Learn More About Helping Hands</h1>
 
@@ -42,12 +42,9 @@ export default function LearnMore() {
                 </div>
                 </footer>
 
-
-                <Link href="/app/page.js">
-                    <a className="text-blue-500 hover:underline">Back </a>
-                </Link>
+                <Link href="/helping-hands" className="text-blue-500 hover:underline">Back</Link>
             </div>
-        </Layout>
+        </>
     );
 }
 
