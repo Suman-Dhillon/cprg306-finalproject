@@ -2,25 +2,27 @@
 
 import React, { useState } from "react";
 
-const MusicInstruments = () => {
+const Clothing = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [contactInfo, setContactInfo] = useState("");
 
   const images = [
-    "https://i.pinimg.com/originals/f4/17/e8/f417e848383e0996d3a8a0ffd5748b29.jpg",
-    "http://www.starpackaging.lk/images/projects/Project-21/3.jpg",
-    "https://i.pinimg.com/originals/56/1a/e6/561ae69ca75438c0c681b706811f1ba6.jpg",
-    "https://1.bp.blogspot.com/-W7FBy175vWo/XEGRf4r5zaI/AAAAAAAAtRY/sYBwfp7oi6Q6y-GCBoJiNzJGIZsYLpmkwCLcBGAs/s1600/violins_different_sizes.jpg",
-    "https://birdsongtt.org/media/images/brass_and_wood_winds_donated_by_suporter_from.width-1200.jpg",
+    "https://i.pinimg.com/originals/7f/dd/de/7fddde28c46fec30eb9977c257478331.jpg",
+    "https://i.etsystatic.com/25908391/r/il/2d9abd/3252410099/il_1140xN.3252410099_n68f.jpg",
+    "https://www.retailgazette.co.uk/wp-content/uploads/2020/03/Second-Hand_Clothes_Vintage_ST.jpg",
+    "https://tse3.mm.bing.net/th?id=OIP.Ewspqip7bxXHZub0bDM7RgHaE8&pid=Api&P=0&h=220",
+    "http://4.bp.blogspot.com/-OotwFaWI_ZI/TzKDabqLuGI/AAAAAAAAB-s/Nc-msvjmMXc/w1200-h630-p-k-no-nu/DSC_0001-1.JPG",
     // Add image URLs here
   ];
 
   const contacts = [
-    "Paulbarnett@hotmail.com",
-    "joolie06@gmail.com",
-    "koodie098@yahoo.com",
-    "jassiqa23@gmail.com",
-    "jasemon89@yahoo.com",
+    "Carmensheriff@gmail.com",
+    "Naomijones09@icloud.com",
+    "James007@yahoo.com",
+    "Marycarson@gmail.com",
+    "Owenrose@yahoo.com",
+
+
     // Add contact emails here corresponding to each image
   ];
 
@@ -82,4 +84,4 @@ const MusicInstruments = () => {
   );
 };
 
-export default MusicInstruments;
+export default Clothing;

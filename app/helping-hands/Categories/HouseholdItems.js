@@ -7,11 +7,11 @@ const HouseholdItems = () => {
   const [contactInfo, setContactInfo] = useState("");
 
   const images = [
-    "https://assets.wfcdn.com/im/97798544/resize-h445%5Ecompr-r85/2597/259702209/Kaelig+Extendable+Round+Dining+Table.jpg",
-    "https://content.cylindo.com/api/v2/5035/products/ALTUS%20-%20SF%20-%202/frames/3/ALTUS%20-%20SF%20-%202.JPG?background=F7F8F6&feature=FABRIC:ALTUS%20-%20FOG&feature=OTTOMAN:OFF&feature=CHAISE:OFF&feature=ARMS:SLOPE&feature=PILLOWS:OFF&feature=LEGS:WOOD%20-%20DARK%20OAK&size=1536",
-    "https://newsadmin.manchester.ac.uk/newsimages/567/28380_large.jpg",
-    "https://www.thespruce.com/thmb/qahLNRLWfxiwZNVkkjOeUsSJbe4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/donate-to-toys-for-tots-3255561_01-cf95b8c8f1b1419585a3c445096988ae.JPG",
-    "https://www.at-home.co.in/cdn/shop/products/pebblely-2023-04-07T141424.246.jpg?v=1681195039",
+    "https://tse1.mm.bing.net/th?id=OIP.VIzq9k4H0DM62aMyDfZgIQHaFB&pid=Api&P=0&h=220",
+    "https://www.addisoncountyrecycles.org/fileadmin/_processed_/3/a/csm_Food_Donation_Box_d249c1e546.jpg",
+    "https://householdgoods.org/wp-content/uploads/2016/01/hg-pots-and-pans-1030x685.jpg",
+    "https://assets-chicagowolves-com.s3.amazonaws.com/wp-content/uploads/e6dd310fab9ad41ff1426c538cc12aa7.jpg",
+    "https://tse2.mm.bing.net/th?id=OIP.DgniVdQh97hFGWSA5zh2zwHaE8&pid=Api&P=0&h=220",
     // Add image URLs here
   ];
 
