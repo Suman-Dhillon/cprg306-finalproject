@@ -41,7 +41,7 @@ const Clothing = () => {
 
   return (
     <div className="relative w-full">
-      <div className="relative h-96 overflow-hidden">
+      <div className="relative h-80 overflow-hidden">
         {images.map((src, index) => (
           <div
             key={index}
@@ -51,7 +51,7 @@ const Clothing = () => {
           >
             <img
               src={src}
-              className="object-contain h-50 w-96 mx-auto"
+              className="object-contain h-50 w-96 mx-10" 
               alt="house-hold-item"
               onClick={() => handleImageClick(index)}
             />
@@ -61,21 +61,21 @@ const Clothing = () => {
 
       <button
         type="button"
-        className="absolute top-1/2 start-0 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none mt-60 text-white bg-gray-800 hover:bg-gray-700"
+        className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 mb-5 ml-10"
         onClick={handlePrevClick}
       >
         Previous
       </button>
       <button
         type="button"
-        className="absolute top-1/2 end-0 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none mt-60 text-white bg-gray-800 hover:bg-gray-700"
+        className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 mb-5 mx-10"
         onClick={handleNextClick}
       >
         Next
       </button>
 
       {contactInfo && (
-        <div className="absolute bottom-0 left-0 w-full bg-white p-4 text-center z-10">
+        <div className=" w-150 bg-white p-4 text-center mx-10">
           <p className="text-lg font-semibold text-gray-800">Contact: {contactInfo}</p>
         </div>
       )}

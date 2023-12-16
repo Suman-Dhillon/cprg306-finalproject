@@ -14,8 +14,8 @@ export default function Page() {
       <p className="my-2 text-lg text-gray-500">Join Helping Hands in creating a brighter future through the simple yet powerful act of giving, where each helping hand shapes a positive impact on individuals and communities worldwide.</p>
 
       <h2 className="text-2xl font-extrabold dark:text-white">Our Team</h2>
-      <p className="my-2 text-lg text-gray-500">Name: Sumandeep Kaur, 000891665</p>
-      <p className="my-2 text-lg text-gray-500">Name: Japsimran Kaur, 000890029</p>
+      <p className="my-2 text-lg text-gray-500">Name: Sumandeep Kaur, 000891665 (Created Profile form, Donation form, Dashboard, handled navigation and user authentication)</p>
+      <p className="my-2 text-lg text-gray-500">Name: Japsimran Kaur, 000890029 (Created Home page, Learn More Page, Categories and did testing/debugging)</p>
 
       <h2 className="text-2xl font-extrabold dark:text-white">Submitted To</h2>
       <p className="my-3 text-lg text-gray-500">Hani Mohammed, CPRG 306-D</p>
