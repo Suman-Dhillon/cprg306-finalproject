@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 const HouseholdItems = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,7 +48,7 @@ const HouseholdItems = () => {
               index === currentIndex ? "translate-x-0" : ""
             } rounded-md overflow-hidden shadow-lg`}
           >
-            <img
+            <Image
               src={src}
               className="object-contain h-50 w-96 mx-10" 
               alt="house-hold-item"
