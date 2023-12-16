@@ -37,6 +37,22 @@ export default function DashboardComponent() {
                         </Link>
                     </div>
                 </div>
+
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="https://static.toiimg.com/thumb/msid-104221732,width-400,resizemode-4/104221732.jpg" alt="donations"/> 
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Donate</div>
+                        <p class="text-gray-700 text-base">
+                        Choose the items you want to donate
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <Link href="/helping-hands/Categories"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Donate Now
+                        </Link>
+                    </div>
+                </div>
             </div>
         </>
     );

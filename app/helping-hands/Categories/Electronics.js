@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from "react";
 
-const HouseholdItems = () => {
+const Electronics = () => {
     const [showContact, setShowContact] = useState(false);
     const [contactInfo, setContactInfo] = useState("");
 
@@ -9,7 +11,7 @@ const HouseholdItems = () => {
         setContactInfo(contact);
     };
 
-    return (
+    return ( 
         <div id="gallery" className="relative w-full" data-carousel="slide">
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -136,4 +138,5 @@ const HouseholdItems = () => {
     );
 };
 
-export default HouseholdItems;
+export default Electronics;
+

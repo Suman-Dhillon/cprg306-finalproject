@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from "react";
 
-const HouseholdItems = () => {
+const ElectricalAppliances = () => {
     const [showContact, setShowContact] = useState(false);
     const [contactInfo, setContactInfo] = useState("");
 
@@ -136,4 +138,4 @@ const HouseholdItems = () => {
     );
 };
 
-export default HouseholdItems;
+export default ElectricalAppliances;
